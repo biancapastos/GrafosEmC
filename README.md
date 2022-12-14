@@ -23,7 +23,7 @@ Funcionalidades a partir do grafo criado:
 
 2- Conversao Lista de Adjacencias para Matriz de Adjacencias
 
-3- Calcular grau de cada vertice do gafo
+3- Calcular grau de cada vertice do grafo
 
 4- Realizar Busca em Largura
 
