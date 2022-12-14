@@ -1,7 +1,7 @@
 // Bianca Santos Pastos - RA: 211150126
-// Trabalho de Implementação Individual (T1) 
-// 2° semestre 2° ano Curso Bacharelado em Ciências da Computação
-// Disciplina Grafos e suas Aplicações - Professor Dênis Salvadeo
+// Trabalho de ImplementaÃ§Ã£o Individual (T1) 
+// 2Â° semestre 2Â° ano Curso Bacharelado em CiÃªncias da ComputaÃ§Ã£o
+// Disciplina Grafos e suas AplicaÃ§Ãµes - Professor DÃªnis Salvadeo
 // dezembro 2022
 
 #include<stdio.h>
@@ -14,7 +14,7 @@
 
 // ----------------------- structs ----------------------------
 typedef struct lista_adj{
-  int vert; 					// Vértice 
+  int vert; 					// VÃ©rtice 
   int peso;						// valor do peso da aresta em caso de grafo valorado || 0 em caso de grafo nao valorado
   struct lista_adj* prox;		// ponteiro p proximo da lista
 } Lista;
@@ -171,7 +171,7 @@ int main(){
 		
 	}while(opcao != 3);
 	
-// LEITURA DOS DADOS DO ARQ CRIADO e inicialização da matriz adjacencias e da lista de adjacencias-------------------------------------------------------------------------------------
+// LEITURA DOS DADOS DO ARQ CRIADO e inicializaÃ§Ã£o da matriz adjacencias e da lista de adjacencias-------------------------------------------------------------------------------------
 	
 	rewind(arq);
 	fscanf(arq, "%d %d %c %d\n", &num_vertices, &num_arestas, &tipo, &valorado);
@@ -596,5 +596,5 @@ void DFS_visita(Grafo *grafo, int u, int *cor){
 	}
 	
 	cor[u] = PRETO;
-	printf("%d --> ", u);
+	printf("%d <-- ", u);
 }
